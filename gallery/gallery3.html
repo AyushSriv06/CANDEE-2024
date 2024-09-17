@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+	<!--
+		Supersized - Fullscreen Slideshow jQuery Plugin
+		Version : 3.2.7
+		Site	: www.buildinternet.com/project/supersized
+		
+		Author	: Sam Dunn
+		Company : One Mighty Roar (www.onemightyroar.com)
+		License : MIT License / GPL License
+	-->
+
+	<head>
+
+		<title>Gallery: NCMAT-2012</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		
+		<link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="theme/supersized.shutter.css" type="text/css" media="screen" />
+		
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+		
+		<script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
+		<script type="text/javascript" src="theme/supersized.shutter.min.js"></script>
+		
+		<script type="text/javascript">
+			
+			jQuery(function($){
+				
+				$.supersized({
+				
+					// Functionality
+					slide_interval          :   3000,		// Length between transitions
+					transition              :   1, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+					transition_speed		:	700,		// Speed of transition
+															   
+					// Components							
+					slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
+					slides 					:  	[			// Slideshow Images
+													
+													{image : 'img/C/gal.jpg', title : '', thumb : 'img/C/thumbs/gal.jpg', url : ''},
+													{image : 'img/C/gal(1).jpg', title : '', thumb : 'img/C/thumbs/gal(1).jpg', url : ''},
+                                                    {image : 'img/C/gal(2).jpg', title : '', thumb : 'img/C/thumbs/gal(2).jpg', url : ''},
+                                                    {image : 'img/C/gal(3).jpg', title : '', thumb : 'img/C/thumbs/gal(3).jpg', url : ''},
+                                                    {image : 'img/C/gal(4).jpg', title : '', thumb : 'img/C/thumbs/gal(4).jpg', url : ''},
+                                                    {image : 'img/C/gal(5).jpg', title : '', thumb : 'img/C/thumbs/gal(5).jpg', url : ''},
+                                                    {image : 'img/C/gal(6).jpg', title : '', thumb : 'img/C/thumbs/gal(6).jpg', url : ''},
+                                                    {image : 'img/C/gal(7).jpg', title : '', thumb : 'img/C/thumbs/gal(7).jpg', url : ''},
+                                                    {image : 'img/C/gal(8).jpg', title : '', thumb : 'img/C/thumbs/gal(8).jpg', url : ''},
+                                                    {image : 'img/C/gal(9).jpg', title : '', thumb : 'img/C/thumbs/gal(9).jpg', url : ''},
+                                                    {image : 'img/C/gal(10).jpg', title : '', thumb : 'img/C/thumbs/gal(10).jpg', url : ''},
+                                                    {image : 'img/C/gal(11).jpg', title : '', thumb : 'img/C/thumbs/gal(11).jpg', url : ''},
+                                                    {image : 'img/C/gal(12).jpg', title : '', thumb : 'img/C/thumbs/gal(12).jpg', url : ''},
+                                                    {image : 'img/C/gal(13).jpg', title : '', thumb : 'img/C/thumbs/gal(13).jpg', url : ''},
+                                                    {image : 'img/C/gal(14).jpg', title : '', thumb : 'img/C/thumbs/gal(14).jpg', url : ''},
+                                                    {image : 'img/C/gal(15).jpg', title : '', thumb : 'img/C/thumbs/gal(15).jpg', url : ''},
+                                                    {image : 'img/C/gal(16).jpg', title : '', thumb : 'img/C/thumbs/gal(16).jpg', url : ''},
+                                                    {image : 'img/C/gal(17).jpg', title : '', thumb : 'img/C/thumbs/gal(17).jpg', url : ''},
+                                                    {image : 'img/C/gal(18).jpg', title : '', thumb : 'img/C/thumbs/gal(18).jpg', url : ''},
+                                                    {image : 'img/C/gal(19).jpg', title : '', thumb : 'img/C/thumbs/gal(19).jpg', url : ''},
+                                                    {image : 'img/C/gal(20).jpg', title : '', thumb : 'img/C/thumbs/gal(20).jpg', url : ''},
+                                                    {image : 'img/C/gal(21).jpg', title : '', thumb : 'img/C/thumbs/gal(21).jpg', url : ''},
+                                                    {image : 'img/C/gal(22).jpg', title : '', thumb : 'img/C/thumbs/gal(22).jpg', url : ''},
+                                                    {image : 'img/C/gal(23).jpg', title : '', thumb : 'img/C/thumbs/gal(23).jpg', url : ''},
+                                                    {image : 'img/C/gal(24).jpg', title : '', thumb : 'img/C/thumbs/gal(24).jpg', url : ''},
+                                                    {image : 'img/C/gal(25).jpg', title : '', thumb : 'img/C/thumbs/gal(25).jpg', url : ''},
+                                                    {image : 'img/C/gal(26).jpg', title : '', thumb : 'img/C/thumbs/gal(26).jpg', url : ''},
+                                                    {image : 'img/C/gal(27).jpg', title : '', thumb : 'img/C/thumbs/gal(27).jpg', url : ''},
+                                                    {image : 'img/C/gal(28).jpg', title : '', thumb : 'img/C/thumbs/gal(28).jpg', url : ''},
+                                                    {image : 'img/C/gal(29).jpg', title : '', thumb : 'img/C/thumbs/gal(29).jpg', url : ''},
+                                                    {image : 'img/C/gal(30).jpg', title : '', thumb : 'img/C/thumbs/gal(30).jpg', url : ''},
+                                                    {image : 'img/C/gal(31).jpg', title : '', thumb : 'img/C/thumbs/gal(31).jpg', url : ''},
+                                                    {image : 'img/C/gal(32).jpg', title : '', thumb : 'img/C/thumbs/gal(32).jpg', url : ''},
+                                                    {image : 'img/C/gal(33).jpg', title : '', thumb : 'img/C/thumbs/gal(33).jpg', url : ''},
+                                                    {image : 'img/C/gal(34).jpg', title : '', thumb : 'img/C/thumbs/gal(34).jpg', url : ''},
+                                                    {image : 'img/C/gal(35).jpg', title : '', thumb : 'img/C/thumbs/gal(35).jpg', url : ''},
+                                                    {image : 'img/C/gal(36).jpg', title : '', thumb : 'img/C/thumbs/gal(36).jpg', url : ''},
+                                                    {image : 'img/C/gal(37).jpg', title : '', thumb : 'img/C/thumbs/gal(37).jpg', url : ''},
+                                                    {image : 'img/C/gal(38).jpg', title : '', thumb : 'img/C/thumbs/gal(38).jpg', url : ''},
+                                                    {image : 'img/C/gal(39).jpg', title : '', thumb : 'img/C/thumbs/gal(39).jpg', url : ''},
+                                                    {image : 'img/C/gal(40).jpg', title : '', thumb : 'img/C/thumbs/gal(40).jpg', url : ''},
+                                                    {image : 'img/C/gal(41).jpg', title : '', thumb : 'img/C/thumbs/gal(41).jpg', url : ''},
+                                                    {image : 'img/C/gal(42).jpg', title : '', thumb : 'img/C/thumbs/gal(42).jpg', url : ''},
+                                                    {image : 'img/C/gal(43).jpg', title : '', thumb : 'img/C/thumbs/gal(43).jpg', url : ''},
+                                                    {image : 'img/C/gal(44).jpg', title : '', thumb : 'img/C/thumbs/gal(44).jpg', url : ''},
+                                                    {image : 'img/C/gal(45).jpg', title : '', thumb : 'img/C/thumbs/gal(45).jpg', url : ''},
+                                                    {image : 'img/C/gal(46).jpg', title : '', thumb : 'img/C/thumbs/gal(46).jpg', url : ''},
+                                                    
+                                                    
+												]
+					
+				});
+		    });
+		    
+		</script>
+		
+	</head>
+	
+	<style type="text/css">
+		ul#demo-block{ margin:0 15px 15px 15px; }
+			ul#demo-block li{ margin:0 0 10px 0; padding:10px; display:inline; float:left; clear:both; color:#aaa; background:url('img/bg-black.png'); font:11px Helvetica, Arial, sans-serif; }
+			ul#demo-block li a{ color:#eee; font-weight:bold; }
+	</style>
+
+<body>
+
+	<!--Demo styles (you can delete this block)-->
+
+	
+	<!--End of styles-->
+
+	<!--Thumbnail Navigation-->
+	<div id="prevthumb"></div>
+	<div id="nextthumb"></div>
+	
+	<!--Arrow Navigation-->
+	<a id="prevslide" class="load-item"></a>
+	<a id="nextslide" class="load-item"></a>
+	
+	<div id="thumb-tray" class="load-item">
+		<div id="thumb-back"></div>
+		<div id="thumb-forward"></div>
+	</div>
+	
+	<!--Time Bar-->
+	<div id="progress-back" class="load-item">
+		<div id="progress-bar"></div>
+	</div>
+	
+	<!--Control Bar-->
+	<div id="controls-wrapper" class="load-item">
+		<div id="controls">
+			
+			<a id="play-button"><img id="pauseplay" src="img/pause.png"/></a>
+		
+			<!--Slide counter-->
+			<div id="slidecounter">
+				<span class="slidenumber"></span> / <span class="totalslides"></span>
+			</div>
+			
+			<!--Slide captions displayed here-->
+			<div id="slidecaption"></div>
+			
+			<!--Thumb Tray button-->
+			<a id="tray-button"><img id="tray-arrow" src="img/button-tray-up.png"/></a>
+			
+			<!--Navigation-->
+			<ul id="slide-list"></ul>
+			
+		</div>
+	</div>
+
+</body>
+</html>

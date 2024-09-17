@@ -1,0 +1,299 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+	<!--
+		Supersized - Fullscreen Slideshow jQuery Plugin
+		Version : 3.2.7
+		Site	: www.buildinternet.com/project/supersized
+		
+		Author	: Sam Dunn
+		Company : One Mighty Roar (www.onemightyroar.com)
+		License : MIT License / GPL License
+	-->
+
+	<head>
+
+		<title>Gallery: IWCCMP-2014</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		
+		<link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="theme/supersized.shutter.css" type="text/css" media="screen" />
+		
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+		
+		<script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
+		<script type="text/javascript" src="theme/supersized.shutter.min.js"></script>
+		
+		<script type="text/javascript">
+			
+			jQuery(function($){
+				
+				$.supersized({
+				
+					// Functionality
+					slide_interval          :   3000,		// Length between transitions
+					transition              :   1, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+					transition_speed		:	700,		// Speed of transition
+															   
+					// Components							
+					slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
+					slides 					:  	[			// Slideshow Images
+													
+													{image : 'img/E/gal.jpg', title : '', thumb : 'img/E/thumbs/gal.jpg', url : ''},
+													{image : 'img/E/gal(1).jpg', title : '', thumb : 'img/E/thumbs/gal(1).jpg', url : ''},
+                                                    {image : 'img/E/gal(2).jpg', title : '', thumb : 'img/E/thumbs/gal(2).jpg', url : ''},
+                                                    {image : 'img/E/gal(3).jpg', title : '', thumb : 'img/E/thumbs/gal(3).jpg', url : ''},
+                                                    {image : 'img/E/gal(4).jpg', title : '', thumb : 'img/E/thumbs/gal(4).jpg', url : ''},
+                                                    {image : 'img/E/gal(5).jpg', title : '', thumb : 'img/E/thumbs/gal(5).jpg', url : ''},
+                                                    {image : 'img/E/gal(6).jpg', title : '', thumb : 'img/E/thumbs/gal(6).jpg', url : ''},
+                                                    {image : 'img/E/gal(7).jpg', title : '', thumb : 'img/E/thumbs/gal(7).jpg', url : ''},
+                                                    {image : 'img/E/gal(8).jpg', title : '', thumb : 'img/E/thumbs/gal(8).jpg', url : ''},
+                                                    {image : 'img/E/gal(9).jpg', title : '', thumb : 'img/E/thumbs/gal(9).jpg', url : ''},
+                                                    {image : 'img/E/gal(10).jpg', title : '', thumb : 'img/E/thumbs/gal(10).jpg', url : ''},
+                                                    {image : 'img/E/gal(11).jpg', title : '', thumb : 'img/E/thumbs/gal(11).jpg', url : ''},
+                                                    {image : 'img/E/gal(12).jpg', title : '', thumb : 'img/E/thumbs/gal(12).jpg', url : ''},
+                                                    {image : 'img/E/gal(13).jpg', title : '', thumb : 'img/E/thumbs/gal(13).jpg', url : ''},
+                                                    {image : 'img/E/gal(14).jpg', title : '', thumb : 'img/E/thumbs/gal(14).jpg', url : ''},
+                                                    {image : 'img/E/gal(15).jpg', title : '', thumb : 'img/E/thumbs/gal(15).jpg', url : ''},
+                                                    {image : 'img/E/gal(16).jpg', title : '', thumb : 'img/E/thumbs/gal(16).jpg', url : ''},
+                                                    {image : 'img/E/gal(17).jpg', title : '', thumb : 'img/E/thumbs/gal(17).jpg', url : ''},
+                                                    {image : 'img/E/gal(18).jpg', title : '', thumb : 'img/E/thumbs/gal(18).jpg', url : ''},
+                                                    {image : 'img/E/gal(19).jpg', title : '', thumb : 'img/E/thumbs/gal(19).jpg', url : ''},
+                                                    {image : 'img/E/gal(20).jpg', title : '', thumb : 'img/E/thumbs/gal(20).jpg', url : ''},
+                                                    {image : 'img/E/gal(21).jpg', title : '', thumb : 'img/E/thumbs/gal(21).jpg', url : ''},
+                                                    {image : 'img/E/gal(22).jpg', title : '', thumb : 'img/E/thumbs/gal(22).jpg', url : ''},
+                                                    {image : 'img/E/gal(23).jpg', title : '', thumb : 'img/E/thumbs/gal(23).jpg', url : ''},
+                                                    {image : 'img/E/gal(24).jpg', title : '', thumb : 'img/E/thumbs/gal(24).jpg', url : ''},
+                                                    {image : 'img/E/gal(25).jpg', title : '', thumb : 'img/E/thumbs/gal(25).jpg', url : ''},
+                                                    {image : 'img/E/gal(26).jpg', title : '', thumb : 'img/E/thumbs/gal(26).jpg', url : ''},
+                                                    {image : 'img/E/gal(27).jpg', title : '', thumb : 'img/E/thumbs/gal(27).jpg', url : ''},
+                                                    {image : 'img/E/gal(28).jpg', title : '', thumb : 'img/E/thumbs/gal(28).jpg', url : ''},
+                                                    {image : 'img/E/gal(29).jpg', title : '', thumb : 'img/E/thumbs/gal(29).jpg', url : ''},
+                                                    {image : 'img/E/gal(30).jpg', title : '', thumb : 'img/E/thumbs/gal(30).jpg', url : ''},
+                                                    {image : 'img/E/gal(31).jpg', title : '', thumb : 'img/E/thumbs/gal(31).jpg', url : ''},
+                                                    {image : 'img/E/gal(32).jpg', title : '', thumb : 'img/E/thumbs/gal(32).jpg', url : ''},
+                                                    {image : 'img/E/gal(33).jpg', title : '', thumb : 'img/E/thumbs/gal(33).jpg', url : ''},
+                                                    {image : 'img/E/gal(34).jpg', title : '', thumb : 'img/E/thumbs/gal(34).jpg', url : ''},
+                                                    {image : 'img/E/gal(35).jpg', title : '', thumb : 'img/E/thumbs/gal(35).jpg', url : ''},
+                                                    {image : 'img/E/gal(36).jpg', title : '', thumb : 'img/E/thumbs/gal(36).jpg', url : ''},
+                                                    {image : 'img/E/gal(37).jpg', title : '', thumb : 'img/E/thumbs/gal(37).jpg', url : ''},
+                                                    {image : 'img/E/gal(38).jpg', title : '', thumb : 'img/E/thumbs/gal(38).jpg', url : ''},
+                                                    {image : 'img/E/gal(39).jpg', title : '', thumb : 'img/E/thumbs/gal(39).jpg', url : ''},
+                                                    {image : 'img/E/gal(40).jpg', title : '', thumb : 'img/E/thumbs/gal(40).jpg', url : ''},
+                                                    {image : 'img/E/gal(41).jpg', title : '', thumb : 'img/E/thumbs/gal(41).jpg', url : ''},
+                                                    {image : 'img/E/gal(42).jpg', title : '', thumb : 'img/E/thumbs/gal(42).jpg', url : ''},
+                                                    {image : 'img/E/gal(43).jpg', title : '', thumb : 'img/E/thumbs/gal(43).jpg', url : ''},
+                                                    {image : 'img/E/gal(44).jpg', title : '', thumb : 'img/E/thumbs/gal(44).jpg', url : ''},
+                                                    {image : 'img/E/gal(45).jpg', title : '', thumb : 'img/E/thumbs/gal(45).jpg', url : ''},
+                                                    {image : 'img/E/gal(46).jpg', title : '', thumb : 'img/E/thumbs/gal(46).jpg', url : ''},
+                                                    {image : 'img/E/gal(47).jpg', title : '', thumb : 'img/E/thumbs/gal(47).jpg', url : ''},
+                                                    {image : 'img/E/gal(48).jpg', title : '', thumb : 'img/E/thumbs/gal(48).jpg', url : ''},
+                                                    {image : 'img/E/gal(49).jpg', title : '', thumb : 'img/E/thumbs/gal(49).jpg', url : ''},
+                                                    {image : 'img/E/gal(50).jpg', title : '', thumb : 'img/E/thumbs/gal(50).jpg', url : ''},
+                                                    {image : 'img/E/gal(51).jpg', title : '', thumb : 'img/E/thumbs/gal(51).jpg', url : ''},
+                                                    {image : 'img/E/gal(52).jpg', title : '', thumb : 'img/E/thumbs/gal(52).jpg', url : ''},
+                                                    {image : 'img/E/gal(53).jpg', title : '', thumb : 'img/E/thumbs/gal(53).jpg', url : ''},
+                                                    {image : 'img/E/gal(54).jpg', title : '', thumb : 'img/E/thumbs/gal(54).jpg', url : ''},
+                                                    {image : 'img/E/gal(55).jpg', title : '', thumb : 'img/E/thumbs/gal(55).jpg', url : ''},
+                                                    {image : 'img/E/gal(56).jpg', title : '', thumb : 'img/E/thumbs/gal(56).jpg', url : ''},
+                                                    {image : 'img/E/gal(57).jpg', title : '', thumb : 'img/E/thumbs/gal(57).jpg', url : ''},
+                                                    {image : 'img/E/gal(58).jpg', title : '', thumb : 'img/E/thumbs/gal(58).jpg', url : ''},
+                                                    {image : 'img/E/gal(59).jpg', title : '', thumb : 'img/E/thumbs/gal(59).jpg', url : ''},
+                                                    {image : 'img/E/gal(60).jpg', title : '', thumb : 'img/E/thumbs/gal(60).jpg', url : ''},
+                                                    {image : 'img/E/gal(61).jpg', title : '', thumb : 'img/E/thumbs/gal(61).jpg', url : ''},
+                                                    {image : 'img/E/gal(62).jpg', title : '', thumb : 'img/E/thumbs/gal(62).jpg', url : ''},
+                                                    {image : 'img/E/gal(63).jpg', title : '', thumb : 'img/E/thumbs/gal(63).jpg', url : ''},
+                                                    {image : 'img/E/gal(64).jpg', title : '', thumb : 'img/E/thumbs/gal(64).jpg', url : ''},
+                                                    {image : 'img/E/gal(65).jpg', title : '', thumb : 'img/E/thumbs/gal(65).jpg', url : ''},
+                                                    {image : 'img/E/gal(66).jpg', title : '', thumb : 'img/E/thumbs/gal(66).jpg', url : ''},
+                                                    {image : 'img/E/gal(67).jpg', title : '', thumb : 'img/E/thumbs/gal(67).jpg', url : ''},
+                                                    {image : 'img/E/gal(68).jpg', title : '', thumb : 'img/E/thumbs/gal(68).jpg', url : ''},
+                                                    {image : 'img/E/gal(69).jpg', title : '', thumb : 'img/E/thumbs/gal(69).jpg', url : ''},
+                                                    {image : 'img/E/gal(70).jpg', title : '', thumb : 'img/E/thumbs/gal(70).jpg', url : ''},
+                                                    {image : 'img/E/gal(71).jpg', title : '', thumb : 'img/E/thumbs/gal(71).jpg', url : ''},
+                                                    {image : 'img/E/gal(72).jpg', title : '', thumb : 'img/E/thumbs/gal(72).jpg', url : ''},
+                                                    {image : 'img/E/gal(73).jpg', title : '', thumb : 'img/E/thumbs/gal(73).jpg', url : ''},
+                                                    {image : 'img/E/gal(74).jpg', title : '', thumb : 'img/E/thumbs/gal(74).jpg', url : ''},
+                                                    {image : 'img/E/gal(75).jpg', title : '', thumb : 'img/E/thumbs/gal(75).jpg', url : ''},
+                                                    {image : 'img/E/gal(76).jpg', title : '', thumb : 'img/E/thumbs/gal(76).jpg', url : ''},
+                                                    {image : 'img/E/gal(77).jpg', title : '', thumb : 'img/E/thumbs/gal(77).jpg', url : ''},
+                                                    {image : 'img/E/gal(78).jpg', title : '', thumb : 'img/E/thumbs/gal(78).jpg', url : ''},
+                                                    {image : 'img/E/gal(79).jpg', title : '', thumb : 'img/E/thumbs/gal(79).jpg', url : ''},
+                                                    {image : 'img/E/gal(80).jpg', title : '', thumb : 'img/E/thumbs/gal(80).jpg', url : ''},
+                                                    {image : 'img/E/gal(81).jpg', title : '', thumb : 'img/E/thumbs/gal(81).jpg', url : ''},
+                                                    {image : 'img/E/gal(82).jpg', title : '', thumb : 'img/E/thumbs/gal(82).jpg', url : ''},
+                                                    {image : 'img/E/gal(83).jpg', title : '', thumb : 'img/E/thumbs/gal(83).jpg', url : ''},
+                                                    {image : 'img/E/gal(84).jpg', title : '', thumb : 'img/E/thumbs/gal(84).jpg', url : ''},
+                                                    {image : 'img/E/gal(85).jpg', title : '', thumb : 'img/E/thumbs/gal(85).jpg', url : ''},
+                                                    {image : 'img/E/gal(86).jpg', title : '', thumb : 'img/E/thumbs/gal(86).jpg', url : ''},
+                                                    {image : 'img/E/gal(87).jpg', title : '', thumb : 'img/E/thumbs/gal(87).jpg', url : ''},
+                                                    {image : 'img/E/gal(88).jpg', title : '', thumb : 'img/E/thumbs/gal(88).jpg', url : ''},
+                                                    {image : 'img/E/gal(89).jpg', title : '', thumb : 'img/E/thumbs/gal(89).jpg', url : ''},
+                                                    {image : 'img/E/gal(90).jpg', title : '', thumb : 'img/E/thumbs/gal(90).jpg', url : ''},
+                                                    {image : 'img/E/gal(91).jpg', title : '', thumb : 'img/E/thumbs/gal(91).jpg', url : ''},
+                                                    {image : 'img/E/gal(92).jpg', title : '', thumb : 'img/E/thumbs/gal(92).jpg', url : ''},
+                                                    {image : 'img/E/gal(93).jpg', title : '', thumb : 'img/E/thumbs/gal(93).jpg', url : ''},
+                                                    {image : 'img/E/gal(94).jpg', title : '', thumb : 'img/E/thumbs/gal(94).jpg', url : ''},
+                                                    {image : 'img/E/gal(95).jpg', title : '', thumb : 'img/E/thumbs/gal(95).jpg', url : ''},
+                                                    {image : 'img/E/gal(96).jpg', title : '', thumb : 'img/E/thumbs/gal(96).jpg', url : ''},
+                                                    {image : 'img/E/gal(97).jpg', title : '', thumb : 'img/E/thumbs/gal(97).jpg', url : ''},
+                                                    {image : 'img/E/gal(98).jpg', title : '', thumb : 'img/E/thumbs/gal(98).jpg', url : ''},
+                                                    {image : 'img/E/gal(99).jpg', title : '', thumb : 'img/E/thumbs/gal(99).jpg', url : ''},
+                                                    {image : 'img/E/gal(100).jpg', title : '', thumb : 'img/E/thumbs/gal(100).jpg', url : ''},
+                                                    {image : 'img/E/gal(101).jpg', title : '', thumb : 'img/E/thumbs/gal(101).jpg', url : ''},
+                                                    {image : 'img/E/gal(102).jpg', title : '', thumb : 'img/E/thumbs/gal(102).jpg', url : ''},
+                                                    {image : 'img/E/gal(103).jpg', title : '', thumb : 'img/E/thumbs/gal(103).jpg', url : ''},
+                                                    {image : 'img/E/gal(104).jpg', title : '', thumb : 'img/E/thumbs/gal(104).jpg', url : ''},
+                                                    {image : 'img/E/gal(105).jpg', title : '', thumb : 'img/E/thumbs/gal(105).jpg', url : ''},
+                                                    {image : 'img/E/gal(106).jpg', title : '', thumb : 'img/E/thumbs/gal(106).jpg', url : ''},
+                                                    {image : 'img/E/gal(107).jpg', title : '', thumb : 'img/E/thumbs/gal(107).jpg', url : ''},
+                                                    {image : 'img/E/gal(108).jpg', title : '', thumb : 'img/E/thumbs/gal(108).jpg', url : ''},
+                                                    {image : 'img/E/gal(109).jpg', title : '', thumb : 'img/E/thumbs/gal(109).jpg', url : ''},
+                                                    {image : 'img/E/gal(110).jpg', title : '', thumb : 'img/E/thumbs/gal(110).jpg', url : ''},
+                                                    
+                                                    {image : 'img/E/gal(111).jpg', title : '', thumb : 'img/E/thumbs/gal(111).jpg', url : ''},
+                                                    {image : 'img/E/gal(112).jpg', title : '', thumb : 'img/E/thumbs/gal(112).jpg', url : ''},
+                                                    {image : 'img/E/gal(113).jpg', title : '', thumb : 'img/E/thumbs/gal(113).jpg', url : ''},
+                                                    {image : 'img/E/gal(114).jpg', title : '', thumb : 'img/E/thumbs/gal(114).jpg', url : ''},
+                                                    {image : 'img/E/gal(115).jpg', title : '', thumb : 'img/E/thumbs/gal(115).jpg', url : ''},
+                                                    {image : 'img/E/gal(116).jpg', title : '', thumb : 'img/E/thumbs/gal(116).jpg', url : ''},
+                                                    {image : 'img/E/gal(117).jpg', title : '', thumb : 'img/E/thumbs/gal(117).jpg', url : ''},
+                                                    {image : 'img/E/gal(118).jpg', title : '', thumb : 'img/E/thumbs/gal(118).jpg', url : ''},
+                                                    {image : 'img/E/gal(119).jpg', title : '', thumb : 'img/E/thumbs/gal(119).jpg', url : ''},
+                                                    {image : 'img/E/gal(120).jpg', title : '', thumb : 'img/E/thumbs/gal(120).jpg', url : ''},
+                                                    
+                                                    {image : 'img/E/gal(121).jpg', title : '', thumb : 'img/E/thumbs/gal(121).jpg', url : ''},
+                                                    {image : 'img/E/gal(122).jpg', title : '', thumb : 'img/E/thumbs/gal(122).jpg', url : ''},
+                                                    {image : 'img/E/gal(123).jpg', title : '', thumb : 'img/E/thumbs/gal(123).jpg', url : ''},
+                                                    {image : 'img/E/gal(124).jpg', title : '', thumb : 'img/E/thumbs/gal(124).jpg', url : ''},
+                                                    {image : 'img/E/gal(125).jpg', title : '', thumb : 'img/E/thumbs/gal(125).jpg', url : ''},
+                                                    {image : 'img/E/gal(126).jpg', title : '', thumb : 'img/E/thumbs/gal(126).jpg', url : ''},
+                                                    {image : 'img/E/gal(127).jpg', title : '', thumb : 'img/E/thumbs/gal(127).jpg', url : ''},
+                                                    {image : 'img/E/gal(128).jpg', title : '', thumb : 'img/E/thumbs/gal(128).jpg', url : ''},
+                                                    {image : 'img/E/gal(129).jpg', title : '', thumb : 'img/E/thumbs/gal(129).jpg', url : ''},
+                                                    {image : 'img/E/gal(130).jpg', title : '', thumb : 'img/E/thumbs/gal(130).jpg', url : ''},
+
+                                                    {image : 'img/E/gal(131).jpg', title : '', thumb : 'img/E/thumbs/gal(131).jpg', url : ''},
+                                                    {image : 'img/E/gal(132).jpg', title : '', thumb : 'img/E/thumbs/gal(132).jpg', url : ''},
+                                                    {image : 'img/E/gal(133).jpg', title : '', thumb : 'img/E/thumbs/gal(133).jpg', url : ''},
+                                                    {image : 'img/E/gal(134).jpg', title : '', thumb : 'img/E/thumbs/gal(134).jpg', url : ''},
+                                                    {image : 'img/E/gal(135).jpg', title : '', thumb : 'img/E/thumbs/gal(135).jpg', url : ''},
+                                                    {image : 'img/E/gal(136).jpg', title : '', thumb : 'img/E/thumbs/gal(136).jpg', url : ''},
+                                                    {image : 'img/E/gal(137).jpg', title : '', thumb : 'img/E/thumbs/gal(137).jpg', url : ''},
+                                                    {image : 'img/E/gal(138).jpg', title : '', thumb : 'img/E/thumbs/gal(138).jpg', url : ''},
+                                                    {image : 'img/E/gal(139).jpg', title : '', thumb : 'img/E/thumbs/gal(139).jpg', url : ''},
+                                                    {image : 'img/E/gal(140).jpg', title : '', thumb : 'img/E/thumbs/gal(140).jpg', url : ''},
+
+                                                    {image : 'img/E/gal(141).jpg', title : '', thumb : 'img/E/thumbs/gal(141).jpg', url : ''},
+                                                    {image : 'img/E/gal(142).jpg', title : '', thumb : 'img/E/thumbs/gal(142).jpg', url : ''},
+                                                    {image : 'img/E/gal(143).jpg', title : '', thumb : 'img/E/thumbs/gal(143).jpg', url : ''},
+                                                    {image : 'img/E/gal(144).jpg', title : '', thumb : 'img/E/thumbs/gal(144).jpg', url : ''},
+                                                    {image : 'img/E/gal(145).jpg', title : '', thumb : 'img/E/thumbs/gal(145).jpg', url : ''},
+                                                    {image : 'img/E/gal(146).jpg', title : '', thumb : 'img/E/thumbs/gal(146).jpg', url : ''},
+                                                    {image : 'img/E/gal(147).jpg', title : '', thumb : 'img/E/thumbs/gal(147).jpg', url : ''},
+                                                    {image : 'img/E/gal(148).jpg', title : '', thumb : 'img/E/thumbs/gal(148).jpg', url : ''},
+                                                    {image : 'img/E/gal(149).jpg', title : '', thumb : 'img/E/thumbs/gal(149).jpg', url : ''},
+                                                    {image : 'img/E/gal(150).jpg', title : '', thumb : 'img/E/thumbs/gal(150).jpg', url : ''},
+                                                    
+                                                    {image : 'img/E/gal(151).jpg', title : '', thumb : 'img/E/thumbs/gal(151).jpg', url : ''},
+                                                    {image : 'img/E/gal(152).jpg', title : '', thumb : 'img/E/thumbs/gal(152).jpg', url : ''},
+                                                    {image : 'img/E/gal(153).jpg', title : '', thumb : 'img/E/thumbs/gal(153).jpg', url : ''},
+                                                    {image : 'img/E/gal(154).jpg', title : '', thumb : 'img/E/thumbs/gal(154).jpg', url : ''},
+                                                    {image : 'img/E/gal(155).jpg', title : '', thumb : 'img/E/thumbs/gal(155).jpg', url : ''},
+                                                    {image : 'img/E/gal(156).jpg', title : '', thumb : 'img/E/thumbs/gal(156).jpg', url : ''},
+                                                    {image : 'img/E/gal(157).jpg', title : '', thumb : 'img/E/thumbs/gal(157).jpg', url : ''},
+                                                    {image : 'img/E/gal(158).jpg', title : '', thumb : 'img/E/thumbs/gal(158).jpg', url : ''},
+                                                    {image : 'img/E/gal(159).jpg', title : '', thumb : 'img/E/thumbs/gal(159).jpg', url : ''},
+                                                    {image : 'img/E/gal(160).jpg', title : '', thumb : 'img/E/thumbs/gal(160).jpg', url : ''},
+                                                    
+                                                    {image : 'img/E/gal(161).jpg', title : '', thumb : 'img/E/thumbs/gal(161).jpg', url : ''},
+                                                    {image : 'img/E/gal(162).jpg', title : '', thumb : 'img/E/thumbs/gal(162).jpg', url : ''},
+                                                    {image : 'img/E/gal(163).jpg', title : '', thumb : 'img/E/thumbs/gal(163).jpg', url : ''},
+                                                    {image : 'img/E/gal(164).jpg', title : '', thumb : 'img/E/thumbs/gal(164).jpg', url : ''},
+                                                    {image : 'img/E/gal(165).jpg', title : '', thumb : 'img/E/thumbs/gal(165).jpg', url : ''},
+                                                    {image : 'img/E/gal(166).jpg', title : '', thumb : 'img/E/thumbs/gal(166).jpg', url : ''},
+                                                    {image : 'img/E/gal(167).jpg', title : '', thumb : 'img/E/thumbs/gal(167).jpg', url : ''},
+                                                    {image : 'img/E/gal(168).jpg', title : '', thumb : 'img/E/thumbs/gal(168).jpg', url : ''},
+                                                    {image : 'img/E/gal(169).jpg', title : '', thumb : 'img/E/thumbs/gal(169).jpg', url : ''},
+                                                    {image : 'img/E/gal(170).jpg', title : '', thumb : 'img/E/thumbs/gal(170).jpg', url : ''},
+                                                    
+                                                    {image : 'img/E/gal(171).jpg', title : '', thumb : 'img/E/thumbs/gal(171).jpg', url : ''},
+                                                    {image : 'img/E/gal(172).jpg', title : '', thumb : 'img/E/thumbs/gal(172).jpg', url : ''},
+                                                    {image : 'img/E/gal(173).jpg', title : '', thumb : 'img/E/thumbs/gal(173).jpg', url : ''},
+                                                    {image : 'img/E/gal(174).jpg', title : '', thumb : 'img/E/thumbs/gal(174).jpg', url : ''},
+                                                    {image : 'img/E/gal(175).jpg', title : '', thumb : 'img/E/thumbs/gal(175).jpg', url : ''},
+                                                    {image : 'img/E/gal(176).jpg', title : '', thumb : 'img/E/thumbs/gal(176).jpg', url : ''},
+                                                    {image : 'img/E/gal(177).jpg', title : '', thumb : 'img/E/thumbs/gal(177).jpg', url : ''},
+                                                    {image : 'img/E/gal(178).jpg', title : '', thumb : 'img/E/thumbs/gal(178).jpg', url : ''},
+                                                    {image : 'img/E/gal(179).jpg', title : '', thumb : 'img/E/thumbs/gal(179).jpg', url : ''},
+                                                    {image : 'img/E/gal(180).jpg', title : '', thumb : 'img/E/thumbs/gal(18D0).jpg', url : ''},
+                                                    
+                                                    
+                                                    
+												]
+					
+				});
+		    });
+		    
+		</script>
+		
+	</head>
+	
+	<style type="text/css">
+		ul#demo-block{ margin:0 15px 15px 15px; }
+			ul#demo-block li{ margin:0 0 10px 0; padding:10px; display:inline; float:left; clear:both; color:#aaa; background:url('img/bg-black.png'); font:11px Helvetica, Arial, sans-serif; }
+			ul#demo-block li a{ color:#eee; font-weight:bold; }
+	</style>
+
+<body>
+
+	<!--Demo styles (you can delete this block)-->
+
+	
+	<!--End of styles-->
+
+	<!--Thumbnail Navigation-->
+	<div id="prevthumb"></div>
+	<div id="nextthumb"></div>
+	
+	<!--Arrow Navigation-->
+	<a id="prevslide" class="load-item"></a>
+	<a id="nextslide" class="load-item"></a>
+	
+	<div id="thumb-tray" class="load-item">
+		<div id="thumb-back"></div>
+		<div id="thumb-forward"></div>
+	</div>
+	
+	<!--Time Bar-->
+	<div id="progress-back" class="load-item">
+		<div id="progress-bar"></div>
+	</div>
+	
+	<!--Control Bar-->
+	<div id="controls-wrapper" class="load-item">
+		<div id="controls">
+			
+			<a id="play-button"><img id="pauseplay" src="img/pause.png"/></a>
+		
+			<!--Slide counter-->
+			<div id="slidecounter">
+				<span class="slidenumber"></span> / <span class="totalslides"></span>
+			</div>
+			
+			<!--Slide captions displayed here-->
+			<div id="slidecaption"></div>
+			
+			<!--Thumb Tray button-->
+			<a id="tray-button"><img id="tray-arrow" src="img/button-tray-up.png"/></a>
+			
+			<!--Navigation-->
+			<ul id="slide-list"></ul>
+			
+		</div>
+	</div>
+
+</body>
+</html>
